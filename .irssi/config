@@ -131,7 +131,6 @@ servers = (
       anonops = {
         type = "IRC";
         nick = "aghular";
-        autosendcmd = "/msg nickserv identify Cone165Bairc; wait 20000;/window close";
       };
       0x00sec = { type = "IRC"; };
     };
@@ -146,12 +145,7 @@ servers = (
       { name = "#netfuze"; chatnet = "NetFuze"; autojoin = "No"; },
       { name = "#oftc"; chatnet = "OFTC"; autojoin = "No"; },
       { name = "silc"; chatnet = "SILC"; autojoin = "No"; },
-      { name = "#linux"; chatnet = "anonops"; autojoin = "yes"; },
-      { name = "#python"; chatnet = "anonops"; autojoin = "yes"; },
-      { name = "#java"; chatnet = "anonops"; autojoin = "yes"; },
-      { name = "#hackers"; chatnet = "anonops"; autojoin = "yes"; },
-      { name = "#blackhat"; chatnet = "anonops"; autojoin = "yes"; },
-      { name = "#anonops"; chatnet = "anonops"; autojoin = "yes"; }
+    
     );
 
     aliases = {
@@ -443,10 +437,15 @@ chatnets = {
   anonops = {
     type = "IRC";
     nick = "aghular";
-    autosendcmd = "/msg nickserv identify Cone165Bairc; wait 20000;/window close";
   };
 };
 channels = (
-  { name = "anonops"; chatnet = "anonops"; autojoin = "yes"; },
+  { name = "#anonops"; chatnet = "anonops"; autojoin = "yes"; },
   { name = "#python"; chatnet = "anonops"; autojoin = "yes"; }
+  { name = "#linux"; chatnet = "anonops"; autojoin = "yes"; },
+  { name = "#python"; chatnet = "anonops"; autojoin = "yes"; },
+  { name = "#java"; chatnet = "anonops"; autojoin = "yes"; },
+  { name = "#hackers"; chatnet = "anonops"; autojoin = "yes"; },
+  { name = "#blackhat"; chatnet = "anonops"; autojoin = "yes"; },
+  { name = "#learninghub"; chatnet = "anonops"; autojoin = "yes"; }
 );
