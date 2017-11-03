@@ -49,7 +49,6 @@ servers = (
     use_ssl = "yes";
     ssl_verify = "no";
     autoconnect = "yes";
-    nick = "aghular";
   },
   {
 
@@ -130,7 +129,6 @@ servers = (
       ananopes = { type = "IRC"; };
       anonops = {
         type = "IRC";
-        nick = "aghular";
       };
       0x00sec = { type = "IRC"; };
     };
@@ -403,8 +401,6 @@ servers = (
     settings = {
       core = {
         real_name = "NotForYouToKnow";
-        user_name = "aghular";
-        nick = "aghular";
       };
       "fe-text" = { actlist_sort = "refnum"; };
     };
@@ -414,9 +410,6 @@ servers = (
 settings = {
   "fe-text" = { actlist_sort = "refnum"; };
   core = { 
-    real_name = "aghular";
-    user_name = "aghular";
-    nick = "aghular";
   };
 };
 chatnets = {
@@ -436,7 +429,6 @@ chatnets = {
   0x00sec = { type = "IRC"; };
   anonops = {
     type = "IRC";
-    nick = "aghular";
   };
 };
 channels = (
